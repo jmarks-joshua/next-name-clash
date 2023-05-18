@@ -3,13 +3,13 @@ export default function Home() {
 
   const info = {
     name: 'John',
+    test: 'test'
   }
 
   const action = async () => {
     'use server'
     console.log(info.name)
-    const {name} = info
-    console.log(name)
+    console.log(info.test)
   }
 
   return null
